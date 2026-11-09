@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>STUDENT DETAILS TASK</h1>
+
+    <h2>STUDENT FORM</h2>
+
+    <form id="studentForm">
+
+        <table>
+
+            <tr>
+                <th>Name</th>
+                <td><input type="text" id="name" required></td>
+            </tr>
+
+            <tr>
+                <th>Age</th>
+                <td><input type="number" id="age" required></td>
+            </tr>
+
+            <tr>
+                <th>Gender</th>
+                <td>
+                    <input type="radio" name="gender" value="Male" checked> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <th>Course</th>
+                <td>
+                    <select id="course">
+                        <option>JavaScript</option>
+                        <option>Python</option>
+                        <option>Java</option>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>React JS</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th>E-mail</th>
+                <td><input type="email" id="email" required></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Save</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+    <br>
+
+    <table id="studentTable">
+
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>COURSE</th>
+            <th>GENDER</th>
+            <th>EMAIL</th>
+            <th>ACTION</th>
+        </tr>
+
+        <tbody id="studentList"></tbody>
+
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

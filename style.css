@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: slateblue;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+form table {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+
+input, select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#studentTable {
+    margin: auto;
+    border: 1px solid gray;
+}
+
+#studentTable th, #studentTable td {
+    padding: 10px;
+}
+
+.deleteBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
